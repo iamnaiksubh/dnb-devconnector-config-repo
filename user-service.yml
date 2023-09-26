@@ -29,4 +29,4 @@ management:
       exposure:
         include: refresh,health
 api:
-  customer: http://PROFILE-SERVICE/customer
+  customer: http://PROFILE-SERVICE/profile
