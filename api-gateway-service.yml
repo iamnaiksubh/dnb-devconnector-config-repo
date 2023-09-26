@@ -16,16 +16,16 @@ cloud:
       - id: USER-SERVICE
         uri: lb://USER-SERVICE
         predicates:
-          - Path=/USER/**
+          - Path=/user/**
       - id: PROFILE-SERVICE
         uri: lb://PROFILE-SERVICE
         predicates:
-          - Path=/PROFILE/**
+          - Path=/profile/**
       - id: EXPERIENCE-SERVICE
         uri: lb://EXPERIENCE-SERVICE
         predicates:
-          - Path=/EXPERIENCE/**
+          - Path=/experience/**
       - id: EDUCATION-SERVICE
         uri: lb://EDUCATION-SERVICE
         predicates:
-          - Path=/EDUCATION/**
+          - Path=/education/**
