@@ -29,3 +29,7 @@ cloud:
         uri: lb://EDUCATION-SERVICE
         predicates:
           - Path=/education/**
+      - id: AUTH-SERVICE
+          uri: lb://AUTH-SERVICE
+          predicates:
+            - Path= /authenticate/**
