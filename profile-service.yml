@@ -22,5 +22,6 @@ server:
     include-message: always
 api:
   auth: http://AUTH-SERVICE/api/authenticate
+  auth: http://AUTH-SERVICE/api/user
   experience: http://EXPERIENCE-SERVICE/api/experience
   education: http://EDUCATION-SERVICE/api/education
