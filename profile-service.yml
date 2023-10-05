@@ -20,5 +20,5 @@ server:
   port: 0
   error:
     include-message: always
-api:
-  user: http://AUTH-SERVICE/api/authenticate
+# api:
+#   user: http://AUTH-SERVICE/api/authenticate
